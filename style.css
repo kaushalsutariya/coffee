@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    background-color: #3b141c;
+}
+
+nav ul li a {
+    border-radius: 1vw;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: orange;
+}
+
+.id1 {
+    background-color: #3b141c;
+}
+
+.orange {
+    color: orange;
+    font-weight: 600;
+    font-size: 3.3vw;
+}
+
+.whh {
+    color: white;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.top {
+    margin-top: 12vw;
+}
+
+.space {
+    min-height: 100vh;
+    ;
+}
+
+.img1 {
+    margin-left: 12vw;
+    margin-top: 10vw;
+}
+
+.white {
+    color: white;
+}
+
+/* === About === */
+.img2 {
+    margin-left: 3vw;
+}
+
+.pera {
+    text-align: justify;
+    color: #3b141c;
+}
+
+.bord::after {
+    content: '';
+    width: 80px;
+    background: orange;
+    height: 5px;
+    display: block;
+    margin: 7px auto 0;
+    border-radius: 8px;
+}
+
+/* team */
+.cen {
+    margin-left: 7vw;
+}
+
+.sedo {
+    box-shadow: 10px 10px 50px orange, 10px 10px 50px;
+}
+
+.hov:hover {
+    transform: scale(1.1);
+}
+.contact-icon{
+    font-size: 2vw;
+}
+.footer-icon{
+    font-size: 2vw;
+    margin: 1vw;
+}
+.bi-facebook:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .orange {
+        font-weight: 600;
+        font-size: 9vw;
+    }
+
+    .whh {
+        font-weight: 600;
+        font-size: 6vw;
+    }
+
+    .top {
+        margin-top: 8vw;
+    }
+    .img1 {
+        margin-left: -6vw;
+        height: 80vw;
+        margin-bottom: 15vw;
+    }
+
+    .senter {
+        text-align: center;
+    }
+
+    .space {
+        min-height: 130vh;
+        ;
+    }
+
+    /* About */
+    .img2 {
+        margin-left: 0.8vw;
+        height: 100vw;
+    }
+
+    .pera {
+        text-align: justify;
+    }
+
+    /* team */
+    .cen {
+        margin-left: 15vw;
+        margin-top: 8vw;
+    }
+    .contact-row>.col-lg-1{
+        width: auto;
+        /* background-color: yellowgreen; */
+    }
+    .contact-row>.col-lg-4{
+        width: auto;
+        /* background-color: violet; */
+    }
+    /* Gallery */
+    .contact-icon{
+        font-size: 8vw;
+    }
+    .Gallery-img{
+        width: 82vw !important;
+    }
+    .services-img{
+        width: 70vw !important;
+    }
+    .footer-icon{
+        font-size: 5vw;
+        margin: 1vw;
+    }
+} 
